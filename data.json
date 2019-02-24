@@ -1,0 +1,83 @@
+{
+  "responseId": "358410e1-9df0-4050-94b1-a549ba9019f6",
+  "queryResult": {
+    "queryText": "มีห้องว่างไหมครับ",
+    "action": "ห้องว่าง",
+    "parameters": {
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentMessages": [{
+      "text": {
+        "text": [""]
+      }
+    }],
+    "outputContexts": [{
+      "name": "projects/linepipe-1531220968273/agent/sessions/ABwppHHzWyIXUtvLFQhD7nnl6RRIZHFJssyv-Um7fXMQrgEO56sTHI5EEWgCnnDxmIBeBMwvcnmznLXsnEK3qOG48UTeVw/contexts/actions_capability_screen_output"
+    }, {
+      "name": "projects/linepipe-1531220968273/agent/sessions/ABwppHHzWyIXUtvLFQhD7nnl6RRIZHFJssyv-Um7fXMQrgEO56sTHI5EEWgCnnDxmIBeBMwvcnmznLXsnEK3qOG48UTeVw/contexts/actions_capability_audio_output"
+    }, {
+      "name": "projects/linepipe-1531220968273/agent/sessions/ABwppHHzWyIXUtvLFQhD7nnl6RRIZHFJssyv-Um7fXMQrgEO56sTHI5EEWgCnnDxmIBeBMwvcnmznLXsnEK3qOG48UTeVw/contexts/google_assistant_input_type_keyboard"
+    }, {
+      "name": "projects/linepipe-1531220968273/agent/sessions/ABwppHHzWyIXUtvLFQhD7nnl6RRIZHFJssyv-Um7fXMQrgEO56sTHI5EEWgCnnDxmIBeBMwvcnmznLXsnEK3qOG48UTeVw/contexts/actions_capability_web_browser"
+    }, {
+      "name": "projects/linepipe-1531220968273/agent/sessions/ABwppHHzWyIXUtvLFQhD7nnl6RRIZHFJssyv-Um7fXMQrgEO56sTHI5EEWgCnnDxmIBeBMwvcnmznLXsnEK3qOG48UTeVw/contexts/actions_capability_media_response_audio"
+    }],
+    "intent": {
+      "name": "projects/linepipe-1531220968273/agent/intents/115b4903-8acf-406b-a504-e0aa310328ed",
+      "displayName": "ห้อง"
+    },
+    "intentDetectionConfidence": 0.9,
+    "languageCode": "th"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "isInSandbox": true,
+      "surface": {
+        "capabilities": [{
+          "name": "actions.capability.WEB_BROWSER"
+        }, {
+          "name": "actions.capability.AUDIO_OUTPUT"
+        }, {
+          "name": "actions.capability.SCREEN_OUTPUT"
+        }, {
+          "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+        }]
+      },
+      "requestType": "SIMULATOR",
+      "inputs": [{
+        "rawInputs": [{
+          "query": "มีห้องว่างไหมครับ",
+          "inputType": "KEYBOARD"
+        }],
+        "arguments": [{
+          "rawText": "มีห้องว่างไหมครับ",
+          "textValue": "มีห้องว่างไหมครับ",
+          "name": "text"
+        }],
+        "intent": "actions.intent.TEXT"
+      }],
+      "user": {
+        "lastSeen": "2019-02-24T10:57:28Z",
+        "locale": "th-TH",
+        "userId": "ABwppHEKIi0AQg_WczSWGGWU3EMOY3U2XjoVjm53i8g3ovdO8-oq3zNxW1EeK-K2r5lxaUhtW2G1rTi8jCOR9bHA4MtXvA"
+      },
+      "conversation": {
+        "conversationId": "ABwppHHzWyIXUtvLFQhD7nnl6RRIZHFJssyv-Um7fXMQrgEO56sTHI5EEWgCnnDxmIBeBMwvcnmznLXsnEK3qOG48UTeVw",
+        "type": "ACTIVE",
+        "conversationToken": "[]"
+      },
+      "availableSurfaces": [{
+        "capabilities": [{
+          "name": "actions.capability.WEB_BROWSER"
+        }, {
+          "name": "actions.capability.AUDIO_OUTPUT"
+        }, {
+          "name": "actions.capability.SCREEN_OUTPUT"
+        }]
+      }]
+    }
+  },
+  "session": "projects/linepipe-1531220968273/agent/sessions/ABwppHHzWyIXUtvLFQhD7nnl6RRIZHFJssyv-Um7fXMQrgEO56sTHI5EEWgCnnDxmIBeBMwvcnmznLXsnEK3qOG48UTeVw"
+}
