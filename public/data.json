@@ -1,0 +1,74 @@
+{
+  "responseId": "a2f523a4-f9dc-4b9f-ba4f-59bad8c14271",
+  "queryResult": {
+    "queryText": "ค่าน้ำ123",
+    "action": "ค่าน้ำ123",
+    "parameters": {
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentMessages": [{
+      "text": {
+        "text": [""]
+      }
+    }],
+    "outputContexts": [{
+      "name": "projects/linepipe-1531220968273/agent/sessions/ABwppHHZ9RB9SRcqMMYEnWeHuPu3rEI2owKgLZS7IBMiM6lvtFVI72BG3m5ssO_WvZ3YLgY9pm88d0hS8mLzw6-uEeLrFw/contexts/actions_capability_screen_output"
+    }, {
+      "name": "projects/linepipe-1531220968273/agent/sessions/ABwppHHZ9RB9SRcqMMYEnWeHuPu3rEI2owKgLZS7IBMiM6lvtFVI72BG3m5ssO_WvZ3YLgY9pm88d0hS8mLzw6-uEeLrFw/contexts/actions_capability_audio_output"
+    }, {
+      "name": "projects/linepipe-1531220968273/agent/sessions/ABwppHHZ9RB9SRcqMMYEnWeHuPu3rEI2owKgLZS7IBMiM6lvtFVI72BG3m5ssO_WvZ3YLgY9pm88d0hS8mLzw6-uEeLrFw/contexts/google_assistant_input_type_keyboard"
+    }, {
+      "name": "projects/linepipe-1531220968273/agent/sessions/ABwppHHZ9RB9SRcqMMYEnWeHuPu3rEI2owKgLZS7IBMiM6lvtFVI72BG3m5ssO_WvZ3YLgY9pm88d0hS8mLzw6-uEeLrFw/contexts/actions_capability_web_browser"
+    }, {
+      "name": "projects/linepipe-1531220968273/agent/sessions/ABwppHHZ9RB9SRcqMMYEnWeHuPu3rEI2owKgLZS7IBMiM6lvtFVI72BG3m5ssO_WvZ3YLgY9pm88d0hS8mLzw6-uEeLrFw/contexts/actions_capability_media_response_audio"
+    }],
+    "intent": {
+      "name": "projects/linepipe-1531220968273/agent/intents/115b4903-8acf-406b-a504-e0aa310328ed",
+      "displayName": "ค่าน้ำ123"
+    },
+    "intentDetectionConfidence": 1.0,
+    "languageCode": "th"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "isInSandbox": true,
+      "surface": {
+        "capabilities": [{
+          "name": "actions.capability.SCREEN_OUTPUT"
+        }, {
+          "name": "actions.capability.AUDIO_OUTPUT"
+        }, {
+          "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+        }, {
+          "name": "actions.capability.WEB_BROWSER"
+        }]
+      },
+      "requestType": "SIMULATOR",
+      "inputs": [{
+        "rawInputs": [{
+          "query": "ค่าน้ำ123",
+          "inputType": "KEYBOARD"
+        }],
+        "arguments": [{
+          "rawText": "ค่าน้ำ123",
+          "textValue": "ค่าน้ำ123",
+          "name": "text"
+        }],
+        "intent": "actions.intent.TEXT"
+      }],
+      "user": {
+        "lastSeen": "2019-01-17T14:04:25Z",
+        "locale": "th-TH",
+        "userId": "ABwppHEKIi0AQg_WczSWGGWU3EMOY3U2XjoVjm53i8g3ovdO8-oq3zNxW1EeK-K2r5lxaUhtW2G1rTi8jCOR9bHA4MtXvA"
+      },
+      "conversation": {
+        "conversationId": "ABwppHHZ9RB9SRcqMMYEnWeHuPu3rEI2owKgLZS7IBMiM6lvtFVI72BG3m5ssO_WvZ3YLgY9pm88d0hS8mLzw6-uEeLrFw",
+        "type": "ACTIVE",
+        "conversationToken": "[]"
+      }
+    }
+  },
+  "session": "projects/linepipe-1531220968273/agent/sessions/ABwppHHZ9RB9SRcqMMYEnWeHuPu3rEI2owKgLZS7IBMiM6lvtFVI72BG3m5ssO_WvZ3YLgY9pm88d0hS8mLzw6-uEeLrFw"
+}
